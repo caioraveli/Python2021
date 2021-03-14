@@ -1,4 +1,4 @@
-# Não funciona com tipos numéricos. 
+# Não funciona com tipos numéricos nem booleano.
 # Sempre retorna inteiro.
 # Espaço também conta
 
