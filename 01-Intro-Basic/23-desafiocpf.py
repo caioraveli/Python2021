@@ -12,7 +12,7 @@ for i in array1:
 
 #digit1 = 0 if ((11 - (soma %11) >9)) else (11 - (soma %11)) 
 digit1 = (11 - (soma %11))
-digit1 = 0 if digit1 > 9
+digit1 = 0 if digit1 > 9 else digit1
 
 array2=array1
 array2.append(digit1)
@@ -24,7 +24,7 @@ for j in array2:
     soma2 = soma2 + (j* dec2)
 
 digit2 = (11 - (soma2 %11))
-digit2 = 0 if digit2 > 9 
+digit2 = 0 if digit2 > 9 else digit2
 
 array2.append(digit2)
 cpf = ''.join(map(str,array2))
