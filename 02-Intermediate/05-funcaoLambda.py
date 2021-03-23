@@ -18,7 +18,7 @@ lista = [
     ['P4', 50],
     ['P5', 8]
 ]
-lista.sort() # Alero mesmo a ordem da minha lista 
+lista.sort() # Altero mesmo a ordem da minha lista 
 print(lista) # Porém, continua sem alterar baseado nos inteiros
 
 lista2 = [
